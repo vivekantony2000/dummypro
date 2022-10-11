@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "name": "app.security",
+      "type": "com.employee.security.config.SecurityConfig",
+      "sourceType": "com.employee.configuration.WebSecurityConfiguration",
+      "sourceMethod": "public com.employee.security.config.SecurityConfig securityConfig() "
+    },
+    {
+      "name": "app.security.configuration",
+      "type": "com.employee.security.util.TokenGenerator",
+      "sourceType": "com.employee.configuration.WebSecurityConfiguration",
+      "sourceMethod": "public com.employee.security.util.TokenGenerator tokenGenerator(com.employee.security.config.SecurityConfig) "
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.security.access-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.access-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.access-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.access-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.access-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.refresh-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.refresh-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.refresh-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.refresh-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.refresh-token-expiry",
+      "type": "java.time.Duration",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-password",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-password",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-password",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-password",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-password",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-salt",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-salt",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-salt",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-salt",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    },
+    {
+      "name": "app.security.token-generator-salt",
+      "type": "java.lang.String",
+      "sourceType": "com.employee.security.config.SecurityConfig"
+    }
+  ],
+  "hints": []
+}
